@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+$bg-color:  rgb(241, 241, 241);
+$font:'Noto Sans', sans-serif;
+body{
+    background-color: $bg-color;
+    font-size: 18px;
+    font-family: $font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 50vh;
+}
+.text{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
