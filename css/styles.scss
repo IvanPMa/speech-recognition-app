@@ -5,7 +5,7 @@ $bg-color:  rgb(241, 241, 241);
 $font:'Noto Sans', sans-serif;
 body{
     background-color: $bg-color;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: $font;
     display: flex;
     justify-content: center;
@@ -19,9 +19,36 @@ body{
     justify-content: space-between;
     width: 80%;
     height: 50vh;
-}
-.text{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid black;
+    .text{
+        flex: 1;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    
+    .buttons{
+        margin-top: 10px;
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        .button{
+            width: 40%;
+            border-radius: 5px;
+        }
+        .button-read{
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+        .button-record{
+            font-weight: bold;
+            border: 3px solid black;
+        }
+    }
+    .content{
+        margin-top: 30px;
+        flex: 4;
+        height: 120px;
+    }
 }
