@@ -60,6 +60,7 @@ body {
 .container .buttons .button {
   width: 40%;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .container .buttons .button-read {
@@ -78,6 +79,7 @@ body {
 }
 
 .container .content {
+  margin: 0 auto;
   margin-top: 30px;
   -webkit-box-flex: 4;
       -ms-flex: 4;

@@ -24,5 +24,5 @@ buttonRecord.addEventListener('click', ()=>{
 
 // insert mesagge on website
 const showMessage = (message) =>{
-    
+    content.innerHTML = message;
 }
