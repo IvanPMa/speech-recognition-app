@@ -1,6 +1,6 @@
 const textInput = document.querySelector('.text');
 const buttonRead = document.querySelector('.button-read');
-alert('Las funcionalidades de la app estan en fase experimental, por si no funciona bien algún boton');
+alert('LAdvertencia! Está es una aplicación en desarrollo, por lo que algunas funciones pueden no ejecutarse correctamente');
 
 buttonRead.addEventListener('click', ()=>{
     //build properties of what will be read
