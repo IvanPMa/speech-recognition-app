@@ -1,11 +1,10 @@
 const textInput = document.querySelector('.text');
-const readButton = document.querySelector('.button-read');
+const buttonRead = document.querySelector('.button-read');
 
-readButton.addEventListener('click', ()=>{
+buttonRead.addEventListener('click', ()=>{
     //build properties of what will be read
-    const speaker = new SpeechSynthesisUtterance();
+    const voice = window.speechSynthesis;
+    const locutor = new SpeechSynthesisUtterance(textInput.value);
     // class responsible for speaking
-    const voice = window.SpeechSynthesis;
-    speaker.text = textInput.value;
-    voice.speak(speaker);
+    voice.speak(locutor);
 });
