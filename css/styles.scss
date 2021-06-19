@@ -32,6 +32,7 @@ body{
         display: flex;
         justify-content: space-around;
         padding: 5px;
+        margin-bottom: 20px;
         .button{
             width: 40%;
             border-radius: 5px;
@@ -45,6 +46,9 @@ body{
             font-weight: bold;
             border: 3px solid black;
         }
+    }
+    .recording{
+        margin: auto;
     }
     .content{
         margin-top: 30px;
